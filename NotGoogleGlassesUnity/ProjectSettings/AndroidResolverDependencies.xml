@@ -1,0 +1,22 @@
+<dependencies>
+  <packages>
+    <package>androidx.coordinatorlayout:coordinatorlayout:1.0.0</package>
+    <package>com.google.android.gms:play-services-games:9.8.0</package>
+    <package>com.google.android.material:material:1.0.0</package>
+    <package>org.tensorflow:tensorflow-lite:0.0.0-nightly</package>
+  </packages>
+  <files />
+  <settings>
+    <setting name="androidAbis" value="armeabi-v7a" />
+    <setting name="bundleId" value="com.DefaultCompany.NotGoogleGlasses" />
+    <setting name="explodeAars" value="True" />
+    <setting name="gradleBuildEnabled" value="True" />
+    <setting name="gradleTemplateEnabled" value="True" />
+    <setting name="installAndroidPackages" value="True" />
+    <setting name="packageDir" value="Assets/Plugins/Android" />
+    <setting name="patchAndroidManifest" value="True" />
+    <setting name="patchMainTemplateGradle" value="True" />
+    <setting name="projectExportEnabled" value="False" />
+    <setting name="useJetifier" value="True" />
+  </settings>
+</dependencies>
